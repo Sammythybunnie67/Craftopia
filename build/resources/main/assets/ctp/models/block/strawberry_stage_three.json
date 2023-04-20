@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ctp:blocks/strawberrystage2",
+    "particle": "ctp:blocks/strawberrystage2"
+  },
+  "render_type": "cutout"
+}

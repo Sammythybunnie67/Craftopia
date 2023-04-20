@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Craftopia Combat",
+    "icon": {
+      "value": "CUSTOM:EnderiumAlloyArmor.body"
+    },
+    "showSearch": true
+  }
+}

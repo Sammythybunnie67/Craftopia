@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ctp:steel_ingot"
+    },
+    "1": {
+      "item": "ctp:steel_ingot"
+    },
+    "2": {
+      "item": "ctp:steel_ingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ctp:steel_pickaxe",
+    "count": 1
+  }
+}

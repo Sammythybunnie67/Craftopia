@@ -1,0 +1,1499 @@
+{
+  "mod_elements": [
+    {
+      "name": "EmeradPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EmeradPickaxeItem.java",
+          "src/main/resources/assets/ctp/models/item/emerad_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradAxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/emerad_axe.json",
+          "src/main/java/net/ctp/craftopia/item/EmeradAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeradSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EmeradSwordItem.java",
+          "src/main/resources/assets/ctp/models/item/emerad_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EmeradShovelItem.java",
+          "src/main/resources/assets/ctp/models/item/emerad_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/emerad_hoe.json",
+          "src/main/java/net/ctp/craftopia/item/EmeradHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeradPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/emerad_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradAxeRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/emerad_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradSwordRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/emerad_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradShovelRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/emerad_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeradHoeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerad_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/emerad_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_ingot.json",
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloyIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyBlock",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_block.json",
+          "src/main/java/net/ctp/craftopia/block/EnderiumAlloyBlockBlock.java",
+          "src/main/resources/assets/ctp/models/block/enderium_alloy_block.json",
+          "src/main/resources/assets/ctp/blockstates/enderium_alloy_block.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyPickaxe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloyPickaxeItem.java",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyAxe",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloyAxeItem.java",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloySword",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_sword.json",
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloySwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyShovel",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloyShovelItem.java",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyHoe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloyHoeItem.java",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloySwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyHoeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyArmor",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_armor_chestplate.json",
+          "src/main/java/net/ctp/craftopia/item/EnderiumAlloyArmorItem.java",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_armor_leggings.json",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_armor_boots.json",
+          "src/main/resources/assets/ctp/models/item/enderium_alloy_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnderiumAlloyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderium_alloy_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/enderium_alloy_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/SteelIngotItem.java",
+          "src/main/resources/assets/ctp/models/item/steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/blockstates/steel_block.json",
+          "src/main/resources/assets/ctp/models/item/steel_block.json",
+          "src/main/resources/assets/ctp/models/block/steel_block.json",
+          "src/main/java/net/ctp/craftopia/block/SteelBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/SteelPickaxeItem.java",
+          "src/main/resources/assets/ctp/models/item/steel_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/steel_axe.json",
+          "src/main/java/net/ctp/craftopia/item/SteelAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/steel_sword.json",
+          "src/main/java/net/ctp/craftopia/item/SteelSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/item/SteelShovelItem.java",
+          "src/main/resources/assets/ctp/models/item/steel_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/steel_hoe.json",
+          "src/main/java/net/ctp/craftopia/item/SteelHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/ctp/models/item/steel_armor_chestplate.json",
+          "src/main/resources/assets/ctp/models/item/steel_armor_helmet.json",
+          "src/main/resources/assets/ctp/models/item/steel_armor_boots.json",
+          "src/main/java/net/ctp/craftopia/item/SteelArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/steel_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Stee3rec",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stee_3rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/stee_3rec.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fences.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      }
+    },
+    {
+      "name": "WallBlocks",
+      "type": "tag",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "BeeGrowableBlocks",
+      "type": "tag",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_growable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/bee_growables.json"
+        ]
+      }
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_spawn_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/valid_spawn.json"
+        ]
+      }
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impermeable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/impermeable.json"
+        ]
+      }
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      }
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/climbable.json"
+        ]
+      }
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fire.json"
+        ]
+      }
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      }
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      }
+    },
+    {
+      "name": "AnimalsSpawnableOnBlocks",
+      "type": "tag",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animals_spawnable_on_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/animals_spawnable_on.json"
+        ]
+      }
+    },
+    {
+      "name": "PreventMobSpawningInsideBlocks",
+      "type": "tag",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_mob_spawning_inside_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/prevent_mob_spawning_inside.json"
+        ]
+      }
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/arrows.json"
+        ]
+      }
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      }
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/impact_projectiles.json"
+        ]
+      }
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beehive_inhabitor_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/beehive_inhabitors.json"
+        ]
+      }
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/raiders.json"
+        ]
+      }
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/skeletons.json"
+        ]
+      }
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      }
+    },
+    {
+      "name": "IsNetherBiomes",
+      "type": "tag",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_nether_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_nether.json"
+        ]
+      }
+    },
+    {
+      "name": "IsEndBiomes",
+      "type": "tag",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_end_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
+        ]
+      }
+    },
+    {
+      "name": "IsOceanBiomes",
+      "type": "tag",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_ocean_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_ocean.json"
+        ]
+      }
+    },
+    {
+      "name": "IsMountainBiomes",
+      "type": "tag",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_mountain_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_mountain.json"
+        ]
+      }
+    },
+    {
+      "name": "IsRiverBiomes",
+      "type": "tag",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_river_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_river.json"
+        ]
+      }
+    },
+    {
+      "name": "IsHillBiomes",
+      "type": "tag",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_hill_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_hill.json"
+        ]
+      }
+    },
+    {
+      "name": "IsForestBiomes",
+      "type": "tag",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_forest_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "IsSavannaBiomes",
+      "type": "tag",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_savanna_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_savanna.json"
+        ]
+      }
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      }
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/load.json"
+        ]
+      }
+    },
+    {
+      "name": "Strawberrystage0AdditionalPlacinggrowthCondition",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberrystage_0_additional_placinggrowth_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ctp/craftopia/procedures/Strawberrystage0AdditionalPlacinggrowthConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrawberryStage0UpdateTick",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_stage_0_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/procedures/StrawberryStage0UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrawberryStage0BlockAdded",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_stage_0_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/procedures/StrawberryStage0BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strawberry",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/models/item/strawberry.json",
+          "src/main/java/net/ctp/craftopia/item/StrawberryItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StrawberryStageFourLoot",
+      "type": "loottable",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_stage_four_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/loot_tables/blocks/strawberry_stage_four_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "StrawberrySeeds",
+      "type": "plant",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/blockstates/strawberry_seeds.json",
+          "src/main/resources/assets/ctp/models/item/strawberry_seeds.json",
+          "src/main/resources/assets/ctp/models/block/strawberry_seeds.json",
+          "src/main/java/net/ctp/craftopia/block/StrawberrySeedsBlock.java",
+          "src/main/java/net/ctp/craftopia/block/entity/StrawberrySeedsBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftopiaFood",
+      "type": "tab",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftopia_food",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StrawberryStageOne",
+      "type": "plant",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_stage_one",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ctp/blockstates/strawberry_stage_one.json",
+          "src/main/resources/assets/ctp/models/item/strawberry_stage_one.json",
+          "src/main/java/net/ctp/craftopia/block/entity/StrawberryStageOneBlockEntity.java",
+          "src/main/java/net/ctp/craftopia/block/StrawberryStageOneBlock.java",
+          "src/main/resources/assets/ctp/models/block/strawberry_stage_one.json"
+        ]
+      }
+    },
+    {
+      "name": "StrawberryStageTwo",
+      "type": "plant",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_stage_two",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/block/StrawberryStageTwoBlock.java",
+          "src/main/java/net/ctp/craftopia/block/entity/StrawberryStageTwoBlockEntity.java",
+          "src/main/resources/assets/ctp/models/block/strawberry_stage_two.json",
+          "src/main/resources/assets/ctp/models/item/strawberry_stage_two.json",
+          "src/main/resources/assets/ctp/blockstates/strawberry_stage_two.json"
+        ]
+      }
+    },
+    {
+      "name": "StrawberryStageThree",
+      "type": "plant",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_stage_three",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/block/entity/StrawberryStageThreeBlockEntity.java",
+          "src/main/java/net/ctp/craftopia/block/StrawberryStageThreeBlock.java",
+          "src/main/resources/assets/ctp/models/block/strawberry_stage_three.json",
+          "src/main/resources/assets/ctp/models/item/strawberry_stage_three.json",
+          "src/main/resources/assets/ctp/blockstates/strawberry_stage_three.json"
+        ]
+      }
+    },
+    {
+      "name": "Strawberryseedsres",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberryseedsres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ctp/recipes/strawberryseedsres.json"
+        ]
+      }
+    },
+    {
+      "name": "StrawberrySeedTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_seed_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CraftopiaCombat",
+      "type": "tab",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftopia_combat",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StrawberryHarvestRightClick",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strawberry_harvest_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ctp/craftopia/procedures/StrawberryHarvestRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.ctp.steel_hoe": "Steel Hoe",
+      "item.ctp.enderium_alloy_shovel": "EnderiumAlloy Shovel",
+      "item.ctp.steel_armor_chestplate": "Steel Chestplate",
+      "item.ctp.enderium_alloy_armor_chestplate": "Enderium Alloy Chestplate",
+      "item.ctp.emerad_sword": "Emerald Sword",
+      "item.ctp.emerad_shovel": "Emerald Shovel",
+      "item.ctp.enderium_alloy_armor_boots": "Enderium Alloy Boots",
+      "item.ctp.emerald_armor_leggings": "Emerald Leggings",
+      "item.ctp.emerad_hoe": "Emerald Hoe",
+      "block.ctp.strawberry_stage_one": "Strawberry Seeds",
+      "item.ctp.enderium_alloy_ingot": "EnderiumAlloy",
+      "item.ctp.steel_shovel": "Steel Shovel",
+      "item.ctp.enderium_alloy_sword": "EnderiumAlloy Sword",
+      "item.ctp.emerad_axe": "Emerald Axe",
+      "item.ctp.enderium_alloy_pickaxe": "EnderiumAlloy Pickaxe",
+      "item.ctp.enderium_alloy_armor_helmet": "Enderium Alloy Helmet",
+      "block.ctp.strawberry_stage_2": "Strawberrystage 0",
+      "item.ctp.strawberry": "Strawberry",
+      "itemGroup.tabcraftopia_combat": "Craftopia Combat",
+      "item.ctp.steel_pickaxe": "Steel Pickaxe",
+      "item.ctp.emerad_pickaxe": "Emerald Pickaxe",
+      "block.ctp.enderium_alloy_block": "Block of EnderiumAlloy",
+      "item.ctp.steel_armor_leggings": "Steel Leggings",
+      "item.ctp.emerald_armor_helmet": "Emerald Helmet",
+      "item.ctp.emerald_armor_chestplate": "Emerald Chestplate",
+      "item.ctp.enderium_alloy_hoe": "EnderiumAlloy Hoe",
+      "item.ctp.emerald_armor_boots": "Emerald Boots",
+      "item.ctp.steel_axe": "Steel Axe",
+      "item.ctp.steel_armor_helmet": "Steel Helmet",
+      "item.ctp.enderium_alloy_armor_leggings": "Enderium Alloy Leggings",
+      "block.ctp.strawberry_stage_three": "Strawberry Seeds",
+      "item.ctp.steel_armor_boots": "Steel Boots",
+      "block.ctp.steel_block": "Block of Steel",
+      "item.ctp.steel_sword": "Steel Sword",
+      "item.ctp.enderium_alloy_axe": "EnderiumAlloy Axe",
+      "block.ctp.strawberry_seeds": "Strawberry Seeds",
+      "block.ctp.strawberry_stage_two": "Strawberry Seeds",
+      "itemGroup.tabcraftopia_food": "Craftopia Food",
+      "item.ctp.steel_ingot": "Steel"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ctp",
+    "modName": "Craftopia",
+    "version": "1.0.0",
+    "description": "Craftopia is a mod that aims to improve minecraft in many ways",
+    "author": "sammythybunnie67",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.ctp.craftopia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "ctp:enderium_alloy_ingot"
+    },
+    "1": {
+      "item": "ctp:enderium_alloy_ingot"
+    },
+    "2": {
+      "item": "ctp:enderium_alloy_ingot"
+    },
+    "3": {
+      "item": "ctp:enderium_alloy_ingot"
+    },
+    "5": {
+      "item": "ctp:enderium_alloy_ingot"
+    },
+    "6": {
+      "item": "ctp:enderium_alloy_ingot"
+    },
+    "8": {
+      "item": "ctp:enderium_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "ctp:enderium_alloy_armor_leggings",
+    "count": 1
+  }
+}

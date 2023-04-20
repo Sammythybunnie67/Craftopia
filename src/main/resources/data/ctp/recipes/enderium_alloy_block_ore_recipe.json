@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ctp:enderium_alloy_block"
+    }
+  ],
+  "result": {
+    "item": "ctp:enderium_alloy_ingot",
+    "count": 9
+  }
+}

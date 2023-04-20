@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ctp:strawberry"
+    }
+  ],
+  "result": {
+    "item": "ctp:strawberry_seeds",
+    "count": 6
+  }
+}

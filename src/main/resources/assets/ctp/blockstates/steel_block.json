@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ctp:block/steel_block"
+    }
+  }
+}

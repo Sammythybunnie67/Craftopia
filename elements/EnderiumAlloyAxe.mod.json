@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "enderiumalloy_axe",
+    "customModelName": "Normal",
+    "name": "EnderiumAlloy Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CraftopiaCombat"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 11,
+    "efficiency": 17.0,
+    "attackSpeed": 1.0,
+    "enchantability": 80,
+    "damageVsEntity": 51.0,
+    "usageCount": 2859,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:EnderiumAlloyIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
