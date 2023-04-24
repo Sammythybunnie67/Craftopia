@@ -26,7 +26,7 @@ public abstract class EnderiumAlloyArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{11, 34, 28, 11}[slot.getIndex()];
+				return new int[]{5, 14, 12, 5}[slot.getIndex()];
 			}
 
 			@Override
@@ -51,12 +51,12 @@ public abstract class EnderiumAlloyArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 2f;
 			}
 		}, slot, properties);
 	}
