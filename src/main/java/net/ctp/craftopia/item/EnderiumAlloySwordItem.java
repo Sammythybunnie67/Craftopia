@@ -14,7 +14,7 @@ public class EnderiumAlloySwordItem extends SwordItem {
 	public EnderiumAlloySwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2859;
+				return 6859;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class EnderiumAlloySwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 32f;
+				return 16f;
 			}
 
 			public int getLevel() {

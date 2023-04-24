@@ -22,7 +22,7 @@ public class EnderiumAlloyHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 9f;
+				return 1f;
 			}
 
 			public int getLevel() {

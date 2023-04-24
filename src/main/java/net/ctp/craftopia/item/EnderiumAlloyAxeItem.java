@@ -14,7 +14,7 @@ public class EnderiumAlloyAxeItem extends AxeItem {
 	public EnderiumAlloyAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2859;
+				return 6859;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class EnderiumAlloyAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 49f;
+				return 18f;
 			}
 
 			public int getLevel() {
